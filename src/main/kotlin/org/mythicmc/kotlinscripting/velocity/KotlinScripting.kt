@@ -1,4 +1,4 @@
-package org.mythicmc.templateplugin.velocity
+package org.mythicmc.kotlinscripting.velocity
 
 import com.google.inject.Inject
 import com.velocitypowered.api.event.Subscribe
@@ -10,15 +10,15 @@ import org.slf4j.Logger
 import java.nio.file.Path
 
 @Plugin(
-    id = "templateplugin",
-    name = "TemplatePlugin",
-    authors = [], // TODO: Set me!
+    id = "KotlinScripting",
+    name = "KotlinScripting",
+    authors = ["retrixe"],
     version = BuildMetadata.VERSION,
     description = BuildMetadata.DESCRIPTION,
-    url = "", // TODO: Set me!
+    url = "https://github.com/mythicmc/KotlinScripting",
     dependencies = []
 )
-class TemplatePluginKt @Inject constructor(
+class KotlinScripting @Inject constructor(
     val server: ProxyServer,
     val logger: Logger,
     @DataDirectory val dataDirectory: Path

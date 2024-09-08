@@ -1,6 +1,5 @@
-name: TemplatePlugin
+name: KotlinScripting
 version: "{{ version }}"
 description: "{{ description }}"
-# TODO either this or author
-authors: []
-main: "org.mythicmc.templateplugin.bungee.TemplatePlugin"
+authors: [retrixe]
+main: "org.mythicmc.kotlinscripting.bungee.KotlinScripting"
